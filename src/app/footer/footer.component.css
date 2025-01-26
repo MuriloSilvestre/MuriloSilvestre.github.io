@@ -1,0 +1,40 @@
+.footer,
+.footer * {
+  box-sizing: border-box;
+}
+
+.footer {
+  background: var(--primary-color, #f15353);
+  padding: 72px 84px 72px 84px;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  gap: 36px;
+  align-items: center;
+  justify-content: center;
+  align-self: stretch;
+  flex-shrink: 0;
+  position: relative;
+  overflow: hidden;
+}
+
+.titulo {
+  color: var(--white-color, #f8f8f8);
+  text-align: left;
+  font-family: "RoundedMplus1C-ExtraBold", sans-serif;
+  font-size: 36px;
+  font-weight: 800;
+  position: relative;
+  text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+}
+
+.logo {
+  flex-shrink: 0;
+  width: 296px;
+  height: 67.09px;
+  position: relative;
+  overflow: visible;
+}

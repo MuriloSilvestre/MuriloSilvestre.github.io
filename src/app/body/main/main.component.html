@@ -1,0 +1,359 @@
+<div class="main">
+  <div id="sobre" class="sobre-container">
+    <h3>
+      <span class="glitch" data-text="Aboult"> Sobre </span>
+    </h3>
+    <p>
+      Sou desenvolvedor Full-Stack com experiência em
+      <strong class="strong-primary"
+        >C# (ASP.NET Core), Angular, Entity Framework e SQL Server.</strong
+      >
+      Tenho atuado no desenvolvimento de sistemas complexos, utilizando
+      arquitetura limpa, DDD e boas práticas de programação. Trabalhei em
+      projetos com funcionalidades como autenticação, atualizações em tempo
+      real, dashboards interativos e gerenciamento de equipes, sempre focando na
+      escalabilidade e na experiência do usuário.
+    </p>
+    <p>
+      Sou reconhecido por minhas habilidades analíticas avançadas e por minha
+      capacidade de resolver problemas complexos e tomar decisões estratégicas.
+      Sou proativo, com interesse em metodologias ágeis e na criação de soluções
+      tecnológicas inovadoras e robustas.
+    </p>
+  </div>
+
+  <div id="habilidade" class="habilidade-container">
+    <div class="subheader">
+      <div class="the-bar"></div>
+      <h4>Habilidades</h4>
+      <div class="the-bar"></div>
+    </div>
+    <ul>
+      <li *ngFor="let skill of skills">
+        <img [src]="skill.url" [alt]="skill.name" />
+        <span>{{ skill.name }}</span>
+      </li>
+    </ul>
+  </div>
+
+  <div id="portfolio" class="portfolio-container">
+    <div class="subheader">
+      <div class="the-bar"></div>
+      <h4>Portfolio</h4>
+      <div class="the-bar"></div>
+    </div>
+    <app-carousel [projects]="projects" [languages]="languages"></app-carousel>
+
+    <h2>Proximos Projetos e Projetos de Destaque</h2>
+    <div class="container">
+      <div class="box">
+        <div class="imgBx">
+          <img src="assets/images/silverbridge.jpg" />
+        </div>
+        <div class="content">
+          <div>
+            <h2>SilverBridge</h2>
+            <p>
+              SilverBridge é um CRM em desenvolvimento, projetado para conectar
+              imobiliárias e clientes, otimizando a gestão de imóveis, leads e
+              vendas com eficiência e inovação.
+            </p>
+          </div>
+        </div>
+      </div>
+      <div class="box">
+        <div class="imgBx">
+          <img src="assets/images/silvercare.jpg" />
+        </div>
+        <div class="content">
+          <div>
+            <h2>SilverCare</h2>
+            <p>
+              O SilverCare é um ERP inovador em desenvolvimento para clínicas
+              médicas, focado em otimizar agendamentos, prontuários, estoque e
+              faturamento, promovendo eficiência e cuidado integrado.
+            </p>
+          </div>
+        </div>
+      </div>
+      <div class="box">
+        <div class="imgBx">
+          <img src="assets/images/silverlink.jpg" />
+        </div>
+        <div class="content">
+          <div>
+            <h2>SilverLink</h2>
+            <p>
+              Sistema em desenvolvimento para conectar pesquisadores, projetos e
+              publicações científicas. Focado em colaboração, gestão eficiente e
+              inovação acadêmica.
+            </p>
+          </div>
+        </div>
+      </div>
+      <div class="box">
+        <div class="imgBx">
+          <img src="assets/images/silvercore.jpg" />
+        </div>
+        <div class="content">
+          <div>
+            <h2>SilverCore</h2>
+            <p>
+              Em desenvolvimento para ser a solução completa de gerenciamento de
+              software para startups de tecnologia, otimizando processos e
+              integrando operações de forma eficiente.
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div id="experiencia" class="experiencia-container">
+    <h3>
+      <span class="glitch" data-text="Professional Experiences•">
+        Experiências Profissionais
+      </span>
+    </h3>
+    <div class="experiencia-conteudo">
+      <div class="detalhe-experiencia">
+        <div class="bola"></div>
+        <div class="barra"></div>
+      </div>
+      <div class="experiencia-descricao">
+        <div class="experiencia-header">
+          <h6>Desenvolvedor FullStack</h6>
+          <p>Negócios Públicos <small>2023-2024</small></p>
+        </div>
+        <p>
+          Atuei no desenvolvimento de sistemas complexos, aplicando boas
+          práticas de programação e promovendo a eficiência no trabalho em
+          equipe
+        </p>
+        <p>
+          <strong> • Plataforma de Vídeo:</strong> Desenvolvi funcionalidades de
+          streaming e gerenciamento de conteúdo, garantindo alta performance e
+          escalabilidade. Colaborei na implementação de APIs seguras para
+          integração com sistemas externos e na criação de um design intuitivo
+          para a interface do usuário.
+        </p>
+        <p>
+          <strong> • Sistema de Gestão Interno:</strong> Atuei na criação de
+          ferramentas para otimização de processos corporativos, como controle
+          de inventário, relatórios automatizados e gestão de documentos.
+          Assegurei a entrega dentro dos prazos estipulados por meio de
+          planejamento ágil e integração contínua.
+        </p>
+        <p>
+          <strong> • Sistema Habitacional:</strong> Além de implementar
+          funcionalidades avançadas para a gestão habitacional, como
+          monitoramento de cadastros e geração de relatórios detalhados, fui
+          responsável pelo treinamento e suporte técnico a colegas de menor
+          senioridade. Organizei e distribuí tarefas de forma eficiente,
+          promovendo um ambiente colaborativo e alinhado com os objetivos do
+          projeto.
+        </p>
+        <p>
+          Sou reconhecido por minhas habilidades analíticas avançadas e por
+          minha capacidade de resolver problemas complexos e tomar decisões
+          estratégicas. Sou proativo, com interesse em metodologias ágeis e na
+          criação de soluções tecnológicas inovadoras e robustas.
+        </p>
+      </div>
+    </div>
+
+    <div class="experiencia-conteudo">
+      <div class="detalhe-experiencia">
+        <div class="bola"></div>
+        <div class="barra"></div>
+      </div>
+      <div class="experiencia-descricao">
+        <div class="experiencia-header">
+          <h6>Desenvolvedor FullStack</h6>
+          <p>PRS Sistemas <small>2019-2022</small></p>
+        </div>
+        <p>
+          Contribui para o desenvolvimento de sistemas robustos e escaláveis em
+          diversas plataformas, entregando soluções com alto impacto para o
+          mercado. Principais Projetos:
+        </p>
+        <p>
+          <strong> • Sistemas de Controle e Gestão:</strong> Desenvolvi
+          ferramentas integradas para otimizar processos empresariais e recursos
+          operacionais.
+        </p>
+        <p>
+          <strong> • Aplicativos Móveis (iOS/Android):</strong> Criação de
+          experiências intuitivas e de alta performance para mobilidade
+          corporativa.
+        </p>
+        <p>
+          <strong> • Plataforma Web de Documentos Fiscais:</strong> Desenvolvi
+          soluções para emissão de CT-e, CT-e OS e MDF-e, otimizando a
+          eficiência em transações fiscais.
+        </p>
+        <p>
+          <strong> • Integração de Sistemas:</strong> Garanti a
+          interoperabilidade entre APIs e sistemas distintos com soluções
+          seguras e consistentes.
+        </p>
+      </div>
+    </div>
+  </div>
+
+  <div id="contato" class="contato-container">
+    <div class="subheader">
+      <div class="the-bar"></div>
+      <h4>Entre em Contato</h4>
+      <div class="the-bar"></div>
+    </div>
+    <div class="contatos">
+      <div class="linha-card">
+        <a class="text-contato" href="https://wa.me/5542998387762">
+          +55 (42) 99838-7762
+        </a>
+      </div>
+      <div class="linha-card">
+        <a class="text-contato" href="m.serratosilvestre@gmail.com">
+          m.serratosilvestre&#64;gmail.com
+        </a>
+      </div>
+      <div class="linha-card">
+        <a
+          class="text-contato"
+          href="https://www.google.com/maps/place/Ponta+Grossa,+PR/@-25.1385751,-50.3244185,11z"
+        >
+          Ponta Grossa - Parana / Remoto
+        </a>
+      </div>
+    </div>
+  </div>
+  <div class="tag-list">
+    <div class="loop-slider" style="--duration: 15951ms; --direction: normal">
+      <div class="inner">
+        <div class="tag"><span>#</span> C#</div>
+        <div class="tag"><span>#</span> .NET</div>
+        <div class="tag"><span>#</span> JavaScript</div>
+        <div class="tag"><span>#</span> webdev</div>
+        <div class="tag"><span>#</span> Typescript</div>
+        <div class="tag"><span>#</span> HTML5</div>
+        <div class="tag"><span>#</span> CSS3</div>
+        <div class="tag"><span>#</span> SQL Server</div>
+        <div class="tag"><span>#</span> PostgreSQL</div>
+        <div class="tag"><span>#</span> Git</div>
+        <!-- duplicated content -->
+        <div class="tag"><span>#</span> C#</div>
+        <div class="tag"><span>#</span> .NET</div>
+        <div class="tag"><span>#</span> JavaScript</div>
+        <div class="tag"><span>#</span> webdev</div>
+        <div class="tag"><span>#</span> Typescript</div>
+        <div class="tag"><span>#</span> HTML5</div>
+        <div class="tag"><span>#</span> CSS3</div>
+        <div class="tag"><span>#</span> SQL Server</div>
+        <div class="tag"><span>#</span> PostgreSQL</div>
+        <div class="tag"><span>#</span> Git</div>
+      </div>
+    </div>
+    <div class="loop-slider" style="--duration: 19260ms; --direction: reverse">
+      <div class="inner">
+        <div class="tag"><span>#</span> C#</div>
+        <div class="tag"><span>#</span> .NET</div>
+        <div class="tag"><span>#</span> JavaScript</div>
+        <div class="tag"><span>#</span> webdev</div>
+        <div class="tag"><span>#</span> Typescript</div>
+        <div class="tag"><span>#</span> HTML5</div>
+        <div class="tag"><span>#</span> CSS3</div>
+        <div class="tag"><span>#</span> SQL Server</div>
+        <div class="tag"><span>#</span> PostgreSQL</div>
+        <div class="tag"><span>#</span> Git</div>
+        <!-- duplicated content -->
+        <div class="tag"><span>#</span> C#</div>
+        <div class="tag"><span>#</span> .NET</div>
+        <div class="tag"><span>#</span> JavaScript</div>
+        <div class="tag"><span>#</span> webdev</div>
+        <div class="tag"><span>#</span> Typescript</div>
+        <div class="tag"><span>#</span> HTML5</div>
+        <div class="tag"><span>#</span> CSS3</div>
+        <div class="tag"><span>#</span> SQL Server</div>
+        <div class="tag"><span>#</span> PostgreSQL</div>
+        <div class="tag"><span>#</span> Git</div>
+      </div>
+    </div>
+    <div class="loop-slider" style="--duration: 10449ms; --direction: normal">
+      <div class="inner">
+        <div class="tag"><span>#</span> C#</div>
+        <div class="tag"><span>#</span> .NET</div>
+        <div class="tag"><span>#</span> JavaScript</div>
+        <div class="tag"><span>#</span> webdev</div>
+        <div class="tag"><span>#</span> Typescript</div>
+        <div class="tag"><span>#</span> HTML5</div>
+        <div class="tag"><span>#</span> CSS3</div>
+        <div class="tag"><span>#</span> SQL Server</div>
+        <div class="tag"><span>#</span> PostgreSQL</div>
+        <div class="tag"><span>#</span> Git</div>
+        <!-- duplicated content -->
+        <div class="tag"><span>#</span> C#</div>
+        <div class="tag"><span>#</span> .NET</div>
+        <div class="tag"><span>#</span> JavaScript</div>
+        <div class="tag"><span>#</span> webdev</div>
+        <div class="tag"><span>#</span> Typescript</div>
+        <div class="tag"><span>#</span> HTML5</div>
+        <div class="tag"><span>#</span> CSS3</div>
+        <div class="tag"><span>#</span> SQL Server</div>
+        <div class="tag"><span>#</span> PostgreSQL</div>
+        <div class="tag"><span>#</span> Git</div>
+      </div>
+    </div>
+    <div class="loop-slider" style="--duration: 16638ms; --direction: reverse">
+      <div class="inner">
+        <div class="tag"><span>#</span> C#</div>
+        <div class="tag"><span>#</span> .NET</div>
+        <div class="tag"><span>#</span> JavaScript</div>
+        <div class="tag"><span>#</span> webdev</div>
+        <div class="tag"><span>#</span> Typescript</div>
+        <div class="tag"><span>#</span> HTML5</div>
+        <div class="tag"><span>#</span> CSS3</div>
+        <div class="tag"><span>#</span> SQL Server</div>
+        <div class="tag"><span>#</span> PostgreSQL</div>
+        <div class="tag"><span>#</span> Git</div>
+        <!-- duplicated content -->
+        <div class="tag"><span>#</span> C#</div>
+        <div class="tag"><span>#</span> .NET</div>
+        <div class="tag"><span>#</span> JavaScript</div>
+        <div class="tag"><span>#</span> webdev</div>
+        <div class="tag"><span>#</span> Typescript</div>
+        <div class="tag"><span>#</span> HTML5</div>
+        <div class="tag"><span>#</span> CSS3</div>
+        <div class="tag"><span>#</span> SQL Server</div>
+        <div class="tag"><span>#</span> PostgreSQL</div>
+        <div class="tag"><span>#</span> Git</div>
+      </div>
+    </div>
+    <div class="loop-slider" style="--duration: 15936ms; --direction: normal">
+      <div class="inner">
+        <div class="tag"><span>#</span> C#</div>
+        <div class="tag"><span>#</span> .NET</div>
+        <div class="tag"><span>#</span> JavaScript</div>
+        <div class="tag"><span>#</span> webdev</div>
+        <div class="tag"><span>#</span> Typescript</div>
+        <div class="tag"><span>#</span> HTML5</div>
+        <div class="tag"><span>#</span> CSS3</div>
+        <div class="tag"><span>#</span> SQL Server</div>
+        <div class="tag"><span>#</span> PostgreSQL</div>
+        <div class="tag"><span>#</span> Git</div>
+        <!-- duplicated content -->
+        <div class="tag"><span>#</span> C#</div>
+        <div class="tag"><span>#</span> .NET</div>
+        <div class="tag"><span>#</span> JavaScript</div>
+        <div class="tag"><span>#</span> webdev</div>
+        <div class="tag"><span>#</span> Typescript</div>
+        <div class="tag"><span>#</span> HTML5</div>
+        <div class="tag"><span>#</span> CSS3</div>
+        <div class="tag"><span>#</span> SQL Server</div>
+        <div class="tag"><span>#</span> PostgreSQL</div>
+        <div class="tag"><span>#</span> Git</div>
+      </div>
+    </div>
+    <div class="fade"></div>
+  </div>
+</div>
